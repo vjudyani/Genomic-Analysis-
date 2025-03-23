@@ -1,8 +1,12 @@
 SARS-CoV-2 Genome Analysis
 
-Introduction
+## Introduction
 
-This repository focuses on bioinformatics analysis of the SARS-CoV-2 genome. The goal is to identify protein-coding genes, validate predictions using well-characterized genomes, and analyze functional characteristics such as hydrophobicity to predict transmembrane proteins.
+SARS-CoV-2, the virus responsible for COVID-19, is being studied using bioinformatics to better understand how it functions and to find potential treatment targets. We are focusing on identifying the genes in its genome that help it infect cells, replicate, and evade the immune system. By comparing these genes to those of other viruses, we can predict their roles and identify possible drug targets.
+
+To do this, we look for sections of the genome that might code for proteins, known as open reading frames (ORFs). We filter out any that are too short to be functional and verify our predictions using specialized algorithms. Before applying this method to SARS-CoV-2, we first test it on *E. coli*, a well-studied bacterium, to make sure our approach is accurate. This step-by-step process ensures reliable results while reducing errors that would need further experimental testing.
+
+This project aims to provide a structured bioinformatics pipeline for analyzing the SARS-CoV-2 genome, identifying key protein-coding genes, and exploring their functional roles.
 
 Setup Instructions
 
