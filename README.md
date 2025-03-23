@@ -17,7 +17,7 @@ cd sars_cov2_analysis
 
 Ensure Python and necessary dependencies are available:
 
-module load python
+module load python 
 pip install biopython matplotlib jupyterlab seaborn pandas
 
 Gene Prediction and Validation
